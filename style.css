@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(images/bg1.jpg);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+.setImage{
+    z-index: 1;
+   }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 22px 57px 65px;
+ 
+  }
+  .container_2 h2{
+    font-family: lucida;
+  }
+  .container_2 h3{
+    font-family: cursive ;
+  }
+.logo{
+    max-height: 60px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #fd4766;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color:rgb(120, 180, 182);
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    position: relative;
+    top: 29px;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+.content{
+    position:relative ;
+    border: 2px solid red;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    /* font-size:1 rem; */
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #fd4766;
+    font-family: cursive;
+}
+.content p{
+    width: 39%;
+    color: #757575;
+  position: relative;
+/* top: -70px; */
+
+
+
+}
+
+
+.forAlign{
+    position: inherit;
+    left: 35px;
+
+   
+   }
+  
+ 
+
+       .here{
+           color: rgb(150, 106, 106) !important;
+           font-size: 2rem;
+       }
+       .sharma{
+        font-size: 4rem;
+       }
+       .makeItSmall a{
+        font-size: 1rem;
+       }
+       #studyButton{
+        border: 3px solid rgb(151, 216, 0);
+
+       }
+   /* THE PARENT DIV  */
+       .firstContainer{
+        width: 100vw;
+        height:100vh;
+        border: 2px solid rgb(0, 0, 0); 
+        position: relative; 
+        top: 40px; 
+        display: flex;
+        flex-direction: column;
+
+       }
+       .firstContainer h1{
+        text-align: center;
+        color: crimson;
+        font-size: 1.5rem;
+
+       }
+/* IMAGES OF PROGRAMMIN, WEB DEVELOPMENT, COOKING  */
+       .skillImages{
+        display: inline;
+        width: 105px;
+        margin-left: 30px;
+        margin-right: 40px;
+        margin-bottom: 62px;
+        opacity: 82%;
+       }
+/* THe CHILDREN DIV OF PARENT  */
+       .description p{
+        display: inline-block;
+        width: 80vw;
+        font-size: 1.1rem;
+        text-align: justify;
+       }
+       .description {
+     /* width: min-content; */
+       }
+/* SKILLS NAME  */
+       .skills{
+        position: relative;
+        top: 5%;
+        left: 300px;
+        width: 145px;
+        align-items: center;
+        text-align: center;
+        color: aqua;
+       }
