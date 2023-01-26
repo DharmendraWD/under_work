@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&family=Ubuntu:wght@300&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:ital,wght@1,600&family=Ubuntu:wght@300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -96,7 +103,7 @@ nav ul li a:hover:after{
     letter-spacing: 4px;
     display: inline-block;
     margin-bottom: 20px;
-    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    background: linear-gradient(120deg, #1c99fe 20.69%, #ffbf09 50.19%,#fb002b 79.69%); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -192,3 +199,11 @@ nav ul li a:hover:after{
         text-align: center;
         color: aqua;
        }
+
+/* CSS of "Meet Dharmendra Sharma ...." */
+.content p{
+    color: #edf756;
+    font-family:Ubuntu;
+    font-style: italic;
+}
+/* CSS of "Meet Dharmendra Sharma ...." Ended Here */
