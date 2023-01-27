@@ -18,7 +18,6 @@
     background-size: cover;
     font-size: 16px;
 
-
 }
 
 
@@ -94,7 +93,6 @@ nav ul li a:hover:after{
 }
 .content{
     position:relative ;
-    border: 2px solid red;
 }
 .content .title{
     color: #1f1f25;
@@ -142,22 +140,19 @@ nav ul li a:hover:after{
        .here{
            color: rgb(150, 106, 106) !important;
            font-size: 2rem;
+           -webkit-background-clip: text;
        }
        .sharma{
         font-size: 4rem;
+        -webkit-background-clip: text;
        }
        .makeItSmall a{
         font-size: 1rem;
        }
-       #studyButton{
-        border: 3px solid rgb(151, 216, 0);
-
-       }
    /* THE PARENT DIV  */
        .firstContainer{
-        width: 100vw;
+        width: 100%;
         height:100vh;
-        border: 2px solid rgb(0, 0, 0); 
         position: relative; 
         top: 40px; 
         display: flex;
@@ -188,6 +183,7 @@ nav ul li a:hover:after{
        }
        .description {
      /* width: min-content; */
+     /* overflow: hidden; */
        }
 /* SKILLS NAME  */
        .skills{
