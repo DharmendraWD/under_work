@@ -5,7 +5,10 @@
     .btn{
         margin: 0px 0px 0px 19px;
     }
+  
+    
 }
+
 
 @media(max-width:1065px){
     .description{
@@ -14,6 +17,7 @@ display: block;
     .description p{
         margin: 35px 3px 18px 3px;
     }
+
 }
 
 @media(max-width:945px){
@@ -41,6 +45,14 @@ display: block;
     }
     .content p {
         width: 67%;
+    }
+    .secondChildContainer {
+        width: 80%;
+        margin: 22px 0px 0px 0px;
+    }
+    .secondContainer {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
@@ -182,7 +194,22 @@ display: block;
     }
 }
 
-/* 
-1024
-768
-450 */
+@media(max-width:1204px){
+    #for_AlignmentInResponsivensee{
+        top: 150px;
+    }
+}
+@media(max-width:884px){
+    #for_AlignmentInResponsivensee{
+        top: 194px;
+    }
+    .forResp{
+            position: relative;
+            top: 52px;
+            -webkit-background-clip: text;
+            /* -webkit-text-fill-color: transparent; */
+    }
+    .secAbout {
+        top: 280px;
+    }
+}
