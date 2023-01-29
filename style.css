@@ -285,12 +285,12 @@ display: flex;
 
 
 /* CSS of ABout Me Started Here  */
-.secAbout {
+#secAbout {
 position: relative;
 top: 230px;
 
 }
-.secAbout h1 {
+#secAbout h1 {
 text-align: center;
 margin-bottom: 1%;
 }

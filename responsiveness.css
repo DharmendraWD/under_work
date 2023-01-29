@@ -43,7 +43,7 @@ display: block;
             -webkit-background-clip: text;
             /* -webkit-text-fill-color: transparent; */
     }
-    .secAbout {
+    #secAbout {
         top: 280px;
     }
 }
@@ -99,7 +99,7 @@ display: block;
         flex-direction: column;
         align-items: center;
     }
-    .secAbout {
+    #secAbout {
         top: 567px;
     }
     .aboutPara {
