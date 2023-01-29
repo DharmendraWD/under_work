@@ -33,6 +33,20 @@ display: block;
     }
 
 }
+@media(max-width:884px){
+    #for_AlignmentInResponsivensee{
+        top: 194px !important;
+    }
+    .forResp{
+            position: relative;
+            top: 52px;
+            -webkit-background-clip: text;
+            /* -webkit-text-fill-color: transparent; */
+    }
+    .secAbout {
+        top: 280px;
+    }
+}
 
 @media(max-width:845px){
     .btn {
@@ -57,6 +71,48 @@ display: block;
 }
 
 @media(max-width:740px){
+    #for_AlignmentInResponsivensee {
+        top: 470px !important;
+    width: 100%;
+    }
+    .secondChildContainer {
+        width: 98%;
+    }
+    .forResp {
+        top: 331px;
+    }
+    .portfolioContainer {
+        width: 100%;
+        top: 190px;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .portfolioChild, .portfolioChild2 {
+        width: 90%;
+        text-align: center;
+       
+    }
+  
+    .portfolioContainer2 {
+        width: 100%;
+        top: 200px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secAbout {
+        top: 567px;
+    }
+    .aboutPara {
+        margin: 0px 4% 0px 4%;
+        text-align: justify;
+        width: 90%
+    }
+    .footer{
+        transform: translate(0%, 1600%);
+    }
+    .description p {
+        width: 100%;
+    }
 
 .sharma {
     font-size: 2.4rem;
@@ -97,6 +153,19 @@ display: block;
 }
 }
 
+
+@media(max-width:680px){
+    #for_Align2{
+        position: relative;
+        top: 177px;
+    }
+    .firstContainer {
+        z-index: 1;
+    }
+    
+}
+
+
 @media(max-width:669px){
     .skills {
         top: 37px;
@@ -120,6 +189,11 @@ display: block;
         top: 4%;
         left: 35%;
     }
+    #for_Align2{
+        position: relative;
+        top: 277px;
+    }
+    
     .skillImages {
         top: 43px;
         left: 37%;
@@ -131,6 +205,22 @@ display: block;
         width: 85%;
     }
   
+}
+@media(max-width:526px){
+    #for_Align2{
+        position: relative;
+        top: 299px;
+    } 
+}
+@media(max-width:503px){
+    #for_Align2 {
+        top: 294px;
+    }
+}
+@media (max-width: 488px){
+#for_Align2 {
+    top: 329px;
+}
 }
 @media(max-width:474px){
 
@@ -146,7 +236,9 @@ display: block;
         left: -68px;
         position: relative;
     }
-
+    .description p {
+        left: 0%;
+    }
     .skills {
             top: 7%;
             z-index: 1;
@@ -156,26 +248,33 @@ display: block;
             position: relative;
         }
     }
-
-
-
-@media(max-width:440px)
-{
-    .description p {
-        left: -6%;
+    @media (max-width: 470px){
+    #for_Align2 {
+        top: 367px;
     }
 }
-@media(max-width:440px)
-{
-    .description p {
-        left: -7%;
+    @media (max-width: 467px){
+    #for_Align2 {
+        top: 395px;
     }
 }
+    @media (max-width: 456px){
+    #for_Align2 {
+        top: 415px;
+    }
+}
+    @media (max-width: 453px){
+    #for_Align2 {
+        top: 450px;
+    }
+}
+
+
 @media(max-width:440px)
 {
-    .description p {
+    /* .description p {
         left: -8%;
-    }
+    } */
     .sharma {
         font-size: 2rem;
         margin-left: -11px;
@@ -183,8 +282,66 @@ display: block;
     .here {
         font-size: 0.9rem;
     }
+    #for_Align2 {
+        top: 473px;
+    }
     .skills {
         left: 33%;
+    }
+}
+@media(max-width:431px){
+    #for_Align2 {
+        top: 527px;
+    }
+}
+@media(max-width:415px){
+    #for_Align2 {
+        top: 567px;
+    }
+}
+@media(max-width:408px){
+    #for_Align2 {
+        top: 601px;
+    }
+}
+@media(max-width:402px){
+    #for_Align2 {
+        top: 630px;
+    }
+}
+@media(max-width:390px){
+    #for_Align2 {
+        top: 706px;
+    }
+}
+@media(max-width:379px){
+    #for_Align2 {
+        top: 753px;
+    }
+}
+@media(max-width:371px){
+    #for_Align2 {
+        top: 803px;
+    }
+}
+@media(max-width:364px){
+    #for_Align2 {
+        top: 835px;
+    }
+}
+@media(max-width:361px){
+    #for_Align2 {
+        top: 863px;
+    }
+}
+@media(max-width:356px){
+    #for_Align2 {
+        top: 895px;
+    }
+}
+@media(max-width:355px){
+    #for_Align2 {
+        top: 1000px;
     }
 }
 @media(max-width:340px)
@@ -197,19 +354,5 @@ display: block;
 @media(max-width:1204px){
     #for_AlignmentInResponsivensee{
         top: 150px;
-    }
-}
-@media(max-width:884px){
-    #for_AlignmentInResponsivensee{
-        top: 194px;
-    }
-    .forResp{
-            position: relative;
-            top: 52px;
-            -webkit-background-clip: text;
-            /* -webkit-text-fill-color: transparent; */
-    }
-    .secAbout {
-        top: 280px;
     }
 }
